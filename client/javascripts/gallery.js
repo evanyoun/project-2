@@ -1,6 +1,6 @@
 // jshint esversion: 6
 
-let main = function(){
+let clickHandler = function(){
 
     let prefixURL = "http://api.flickr.com/services/feeds/photos_public.gne?tags=";
     let suffixURL = "&format=json&jsoncallback=?";
@@ -9,7 +9,7 @@ let main = function(){
     let requestURL = prefixURL + flickrTag + suffixURL;
 
     //clear old photos
-    $(".photos").???("");
+  $(".photos").innerHTML = "";
 
   $.getJSON(requestURL, function(flickrResponse) {
     flickrResponse.items.forEach(function(item, index) {
