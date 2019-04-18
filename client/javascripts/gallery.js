@@ -19,7 +19,7 @@ let clickHandler = function() {
       //We need only six images for the Gallery
       if (index < 6) {
         // create a new JQuery element to hold the image
-        // but hide it so we can fade it in
+        // but hide it so we can fade it in.
         let $img = $("<img>").hide();
 
         // set the attribute to the url
