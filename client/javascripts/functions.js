@@ -6,7 +6,7 @@ let reverseAllWord = send => {
 
   //reverse all words in sentence
   for (var i = 0; i < words.length; i++) {
-    result = result + reverseStr(words[i]) + " ";
+    result = result + reverse[i] + " ";
   }
   return result;
 };
