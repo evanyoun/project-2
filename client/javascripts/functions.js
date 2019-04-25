@@ -2,7 +2,7 @@
 
 let reverseAllWord = send => {
   let result = "";
-  let words = sent.split(" ");
+  let words = send.split(" ");
 
   //reverse all words in sentence
   for (var i = 0; i < words.length; i++) {
