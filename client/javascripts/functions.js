@@ -12,7 +12,7 @@ let reverseAllWords = send => {
 };
 
 //3-b
-let reverseAllWord2 = send => {
+let reverseAllWords2 = send => {
   let result = "";
   let words = send.split("");
   words.forEach(function(c) {
