@@ -24,11 +24,18 @@ Content: ${response[0].content}`);
       let div = document.createElement("div");
       let header = document.createElement("h3");
       let p = document.createElement("p");
+      let p2 = document.createElement("p2");
+      //  let h2 = document.getElementById("h2").textContent;
+      //  document.getElementById("div").appendChild("h2");
+
       header.textContent = `Article ${json_obj.id}`;
+      p.textContent = `Title ${json_obj.title}`;
+      p2.textContent = `Content ${json_obj.content}`;
 
       //put elements inside each other
       div.appendChild(header);
-
+      div.appendChild(p);
+      div.appendChild(p2);
       let container = document.getElementsByClassName("articles")[0];
       container.appendChild(div);
     });
