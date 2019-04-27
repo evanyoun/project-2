@@ -1,5 +1,3 @@
-# Project 2 Repo
-
 ## 281 Project Learning Outcomes
 
 What I learned by doing P2
