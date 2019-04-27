@@ -23,7 +23,7 @@ Content: ${response[0].content}`);
       //make some elements
       let div = document.createElement("div");
       let header = document.createElement("h3");
-      let p = document.createElement("h5");
+      let p = document.createElement("h6");
       let p2 = document.createElement("h6");
       //  let h2 = document.getElementById("h2").textContent;
       //  document.getElementById("div").appendChild("h2");
